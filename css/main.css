@@ -1,0 +1,28 @@
+svg {
+    display: block;
+    height: 100%;
+}
+
+.progressbar-container {
+    position: relative;
+    height: 100%;
+}
+
+.progressbar {
+    height: 100%;
+}
+
+.progressbar > svg {
+    margin: 0 auto;
+}
+
+.progressbar-container > h2 {
+    position: absolute;
+
+    font-size: 1.5em;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

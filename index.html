@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Getting Traction for an Open Source Project</title>
+    <meta name="description" content="Tips and tricks how to gift wrap an open source project">
+    <meta name="author" content="Kimmo Brunfeldt">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/futurice.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <section data-background="img/bg01.png" class="futurice-front1">
+          <img class="futulogo" src="img/futulogo.png">
+          <h2>Getting Traction for an Open Source Project</h2>
+
+        <p>November / 2015</p>
+        </section>
+
+        <section data-state="progressbar-slide" class="progressbar">
+          <div class="progressbar-container">
+              <div class="progressbar" id="circle-progressbar"></div>
+              <h2 id="progressbar-header">ProgressBar.js</h2>
+              <!--
+              ProgressBar.js is an open source project that I recently created.
+              Almost everything in these slides are learnings from that project.
+
+              I needed circular progress bar in a personal project and decided to
+              create my own library for it.
+              -->
+          </div>
+        </section>
+
+        <section style="color:white" data-background="img/bg06.png" class="futurice-front1">
+          <h3 style="color:white" >ProgressBar.js has reached</h3>
+          <ul>
+            <li>160 countries</li>
+            <li>34 000 people</li>
+            <li>45 000 page views</li>
+          </ul>
+
+          <!--
+          So far ProgressBar.js has reached
+
+          160 countries
+          34k people
+          45k page views
+
+          in one month.
+          -->
+        </section>
+
+        <section style="color:white" data-background="img/bg08.png" class="futurice-front1">
+          <h3 style="color:white">Steps to a good project</h3>
+          <ol>
+            <li>Solve an existing problem</li>
+            <li>Gift wrap the solution</li>
+            <li>Share it at the right time to the correct channels</li>
+            <li>Maintain it</li>
+          </ol>
+
+          <!--
+          To make a good open source project.
+
+          - Solve an existing problem
+          - Gift wrap the solution so others can use it with ease
+          - Share it at the right time and to the correct channels
+          - Maintain your project
+          -->
+        </section>
+
+        <section data-background="img/bg03.png" class="futurice-front1">
+          <h2 style="color:white">Solve an existing problem</h2>
+          <!--
+          When you're sure that the world needs another library,
+          Think of all the annoying things you don't like in other projects.
+          -->
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h3>Problems with current solutions</h3>
+          <ul>
+            <li>Depends on jQuery (the usual)</li>
+            <li>No animation support</li>
+            <li>Weird API</li>
+            <li>It was made 10 years ago</li>
+            <li>It looks like it was made 10 years ago</li>
+          </ul>
+
+          <!--
+          Before starting a new project, I searched for existing ones but
+          all of them had some problems:
+
+          - Depends on jQuery(the usual)
+          - No animation support
+          - Weird API
+          - It was made 10 years ago
+          - It looks like it was made 10 years ago
+
+
+          It's important to search enough before
+          rolling up your sleeves. It's easy to miss great existing projects
+          with wrong key words.
+          -->
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Lousy documentation?</h2>
+          <br>
+          <img src="img/issue-documentation.png">
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Lack of examples?</h2>
+          <br>
+          <img src="img/issue-no-examples.png">
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>No tests?</h2>
+          <img src="img/issue-tests.png">
+        </section>
+
+        <section data-background="img/bg03.png" class="futurice-front1">
+          <h2 style="color:white">Gift wrap it</h2>
+          <!--
+          And then fix all of those things in your shiny new project.
+          -->
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Show your thing</h2>
+          <img src="img/progressbar-gh-project.png"/>
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Make it easy</h2>
+          <img src="img/progressbar-readme-start.png"/>
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Help contributors</h2>
+          <img src="img/help-contributors.png"/>
+
+          <!--
+          Try to document everything you know about the project.
+
+          Prepare to the day you lose interest in the project and someone
+          else starts to maintain the project.
+          -->
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Document everything</h2>
+          <img src="img/decisionlog.png"/>
+
+          <!--
+          Decisions you have made might be valuable information to the next
+          maintainer.
+          -->
+        </section>
+
+        <section data-background="img/bg03.png" class="futurice-front1">
+          <h2 style="color:white">Share it at the right time to the correct channels</h2>
+          <!--
+          And then fix all of those things in your shiny new project.
+          -->
+        </section>
+
+        <section class="futurice-front1">
+          <img class="fit-window" src="img/time-to-share.png">
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Where to share</h2>
+          <ul>
+            <li>Friends and colleagues</li>
+            <li>Reddit</li>
+            <li>Hacker News</li>
+            <li>Popular news letter (JavaScript Weekly)</li>
+            <li>Content curators (DailyJS)</li>
+          </ul>
+          <!--
+          Add answer
+          -->
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Direct ninja marketing</h2>
+          <ul>
+            <li>Answer to StackOverflow</li>
+            <li>Comment on related blog posts</li>
+            <li>Open issue to GitHub projects</li>
+          </ul>
+          <!--
+          Add answer
+          -->
+        </section>
+
+        <section data-background="img/bg06.png" class="futurice-front1">
+          <h2 style="color:white">Impact</h2>
+          <div style="height:600px" id="traffic-chart"></div>
+        </section>
+
+
+
+        <section data-background="img/bg08.png" class="futurice-front1">
+          <h2 style="color:white">Your headline</h2>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="lib/js/progressbar.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script src="https://www.google.com/jsapi"></script>
+
+    <script>
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'linear',
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+    </script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
