@@ -35,18 +35,16 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
 
-        <section data-background="img/bg01.png" class="futurice-front1">
-          <img class="futulogo" src="img/futulogo.png">
-          <h2>Getting Traction for an Open Source Project</h2>
+        <section style="color:white" data-background="img/backgrounds/darkgreen.svg" class="futurice-front1">
 
-        <p></p>
-        <p>Kimmo Brunfeldt, November/2015</p>
+          <h2 style="font-weight:bold;color:white" >Getting Traction for an Open Source Project</h2>
 
+        <p style="color:white" >Kimmo Brunfeldt, December/2014</p>
+        <img width="200" class="futulogo" src="img/futurice-logo--green.svg">
         <aside class="notes">
           <ul>
-            <li>We are doing great stuff</li>
-            <li>Recent blog posts have been shared very actively</li>
-            <li>Let’s do more of that</li>
+            <li>Hi, I'm Kimmo Brunfeldt from Futurice</li>
+            <li>I do a lot of open source stuff</li>
           </ul>
         </aside>
         </section>
@@ -73,13 +71,12 @@
           </aside>
         </section>
 
-        <section style="color:white" data-background="img/bg06.png" class="futurice-front1">
-          <h3 style="color:white" >ProgressBar.js has reached</h3>
+        <section style="color:#231F20" data-background="img/backgrounds/lightgrey.svg" class="futurice-front1">
+          <h3 style="font-weight:bold;color:#231F20" >ProgressBar.js statistics</h3>
           <ul>
-            <li>&gt;120 countries</li>
-            <li>34 000 people</li>
-            <li>45 000 page views</li>
-            <li>2 900 stars in GitHub</li>
+            <li>45 000 visitors</li>
+            <li>65 000 page views</li>
+            <li>&gt;3k stars in GitHub</li>
           </ul>
 
           <!--
@@ -98,15 +95,16 @@
           </aside>
         </section>
 
-        <section style="color:white" data-background="img/bg08.png" class="futurice-front1">
-          <h3 style="color:white">Steps to a good project</h3>
+        <section style="color:white" data-background="img/backgrounds/darkgreen.svg" class="futurice-front1">
+          <h3 style="font-weight:bold;color:white">Steps to a good project</h3>
           <ol>
-            <li>Solve an existing problem</li>
-            <li>Gift wrap the solution</li>
-            <li>Share it at the right time to the correct channels</li>
-            <li>Maintain it</li>
+            <li class="fragment">Solve an existing problem</li>
+            <li class="fragment">Gift wrap the solution</li>
+            <li class="fragment">Share it at the right time to the correct channels</li>
+            <li class="fragment">Maintain it</li>
           </ol>
 
+          <p style="color:white"class="fragment">(or do something crazy like ArnoldC)</p>
           <!--
           To make a good open source project.
 
@@ -124,8 +122,12 @@
           </aside>
         </section>
 
-        <section data-background="img/bg03.png" class="futurice-front1">
-          <h2 style="color:white">Solve an existing problem</h2>
+        <section data-background="img/backgrounds/arnoldc.jpg">
+
+        </section>
+
+        <section data-background="img/backgrounds/lightgreen.svg" class="futurice-front1">
+          <h2 style="font-weight:bold;color:#231F20"><span style="color:#035A4B">Solve</span> an existing problem</h2>
           <!--
           When you're sure that the world needs another library,
           Think of all the annoying things you don't like in other projects.
@@ -140,15 +142,9 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h3>Problems with current solutions</h3>
-          <ul>
-            <li>Depends on jQuery (the usual)</li>
-            <li>No animation support</li>
-            <li>Weird API</li>
-            <li>It was made 10 years ago</li>
-            <li>It looks like it was made 10 years ago</li>
-          </ul>
+        <section data-background="img/backgrounds/fire.svg">
+          <h3 style="font-weight:bold;">Problems with current solutions</h3>
+          <img class="fragment" height="500" src="img/ketchup.gif" alt="">
 
           <!--
           Before starting a new project, I searched for existing ones but
@@ -167,33 +163,50 @@
           -->
           <aside class="notes">
             <ul>
-              <li>Explain the problems</li>
-              <li>Important to search before rolling your sleeves</li>
+              <li>If you see lib which feels like bottle in that guys hands</li>
+              <li>Depends on jQuery (the usual), No animation support</li>
+              <li>Weird API, It was made 10 years ago</li>
+              <li>Looks like was made 10 years ago</li>
+              <li>Search before rolling sleeves</li>
               <li>Easy to miss existing projects with wrong key words</li>
               <li>Think of all annoying parts in other open source projects</li>
             </ul>
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Lousy documentation?</h2>
+        <section data-background="img/backgrounds/fire.svg" class="futurice-front1">
+          <h2 style="font-weight:bold;">Lousy documentation?</h2>
           <br>
           <img src="img/issue-documentation.png">
+
+          <aside class="notes">
+            <ul>
+              <li>Documenting is super important</li>
+              <li>Bunch of code without explanation isn't interesting</li>
+            </ul>
+          </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Lack of examples?</h2>
+        <section data-background="img/backgrounds/fire.svg" class="futurice-front1">
+          <h2 style="font-weight:bold;">Lack of examples?</h2>
           <br>
           <img src="img/issue-no-examples.png">
+
+          <aside class="notes">
+            <ul>
+              <li>Easiest way to get hang of the lib API is example</li>
+              <li></li>
+            </ul>
+          </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>No tests?</h2>
+        <section data-background="img/backgrounds/fire.svg" class="futurice-front1">
+          <h2 style="font-weight:bold;">No tests?</h2>
           <img src="img/issue-tests.png">
         </section>
 
-        <section data-background="img/bg03.png" class="futurice-front1">
-          <h2 style="color:white">Gift wrap it</h2>
+        <section data-background="img/backgrounds/lightgreen.svg" class="futurice-front1">
+          <h2 style="font-weight:bold;color:#231F20">Gift <span style="color:#035A4B">wrap it</span></h2>
           <!--
           And then fix all of those things in your shiny new project.
           -->
@@ -205,20 +218,7 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Show your thing</h2>
-          <img src="img/progressbar-gh-project.png"/>
-
-          <aside class="notes">
-            <ul>
-              <li>Provide demos, something to see instantly</li>
-            </ul>
-          </aside>
-        </section>
-
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Make it easy</h2>
-          <img src="img/progressbar-readme-start.png"/>
+        <section data-background="img/backgrounds/progressbar-readme.gif" class="futurice-front1">
 
           <aside class="notes">
             <ul>
@@ -229,16 +229,31 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Help contributors</h2>
-          <img src="img/help-contributors.png"/>
+        <section data-background="img/backgrounds/progressbar-example.png" class="futurice-front1">
 
-          <!--
-          Try to document everything you know about the project.
 
-          Prepare to the day you lose interest in the project and someone
-          else starts to maintain the project.
-          -->
+          <aside class="notes">
+            <ul>
+              <li>Provide demos, something to see instantly</li>
+            </ul>
+          </aside>
+        </section>
+
+
+        <section data-background="img/backgrounds/example-api.png" class="futurice-front1">
+
+
+          <aside class="notes">
+            <ul>
+              <li>Provide demos, something to see instantly</li>
+            </ul>
+          </aside>
+        </section>
+
+
+        <section data-background="img/backgrounds/contributing-example.png" class="futurice-front1">
+
+
           <aside class="notes">
             <ul>
               <li>Try to document everything</li>
@@ -248,26 +263,11 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Document everything</h2>
-          <img src="img/decisionlog.png"/>
 
-          <!--
-          Decisions you have made might be valuable information to the next
-          maintainer.
-          -->
-          <aside class="notes">
-            <ul>
-              <li>This is something I tried with progressbar.js</li>
-              <li>It helps others to understand reasoning behind decisions</li>
-            </ul>
-          </aside>
-        </section>
-
-        <section data-background="img/bg08.png" class="futurice-front1">
+        <section data-background="img/backgrounds/darkgreen.svg" class="futurice-front1">
           <h2 style="color:white">Gift wrapping takes time</h2>
           <img src="img/githours.png" alt="" />
-          <p style="color:white">(That's 20 working days)</p>
+          <p class="fragment" style="color:white">(That's 20 working days)</p>
 
           <aside class="notes">
             <ul>
@@ -277,14 +277,14 @@
           </aside>
         </section>
 
-        <section data-background="img/bg03.png" class="futurice-front1">
-          <h2 style="color:white">Share it at the right time to the correct channels</h2>
+        <section data-background="img/backgrounds/lightgreen.svg" class="futurice-front1">
+          <h2 style="font-weight:bold;color:#231F20"><span style="color:#035A4B">Share it</span> at the right time</h2>
+          <h2 style="font-weight:bold;color:#231F20">to the <span style="color:#035A4B">correct</span> channels</h2>
         </section>
 
-        <section style="color:white" data-background="img/bg08.png" class="futurice-front1">
-          <h2 style="color:white">I shared on Tuesday 15:00</h2>
+        <section style="color:white" data-background="img/backgrounds/bg08.png" class="futurice-front1">
+          <h2 style="color:white">Get initial buzz</h2>
           <br>
-          <h4 style="color:white">Why was it good?</h4>
           <ul>
             <li>Colleagues share before leaving work</li>
             <li>Lot of people in EU & US see it inside 24h</li>
@@ -303,7 +303,6 @@
         <section class="futurice-front1">
           <img class="fit-window" src="img/time-to-share.png">
 
-
           <aside class="notes">
             <ul>
               <li>Think of the time zones before sharing</li>
@@ -313,7 +312,7 @@
         </section>
 
         <section class="futurice-front1">
-          <h2>Traffic</h2>
+          <h2 style="font-weight: bold;">Traffic</h2>
           <img class="fit-window" src="img/traffic.png">
 
           <aside class="notes">
@@ -324,8 +323,8 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Where to share</h2>
+        <section data-background="img/backgrounds/lightgrey.svg" class="futurice-front1">
+          <h2 style="font-weight: bold;">Where to share</h2>
           <ul>
             <li>Friends and colleagues</li>
             <li>Reddit (500k in /r/programming)</li>
@@ -343,8 +342,8 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h2>Direct ninja marketing</h2>
+        <section data-background="img/backgrounds/lightgrey.svg" class="futurice-front1">
+          <h2 style="font-weight: bold;">Help people</h2>
           <ul>
             <li>Answer to StackOverflow</li>
             <li>Comment on related blog posts</li>
@@ -359,8 +358,8 @@
           </aside>
         </section>
 
-        <section data-background="img/bg06.png" class="futurice-front1">
-          <h2 style="color:white">Maintain</h2>
+        <section data-background="img/backgrounds/lightgreen.svg" class="futurice-front1">
+          <h2 style="font-weight:bold;color:black">Maintain</h2>
 
           <aside class="notes">
             <ul>
@@ -369,8 +368,8 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h3>Answer to issues and pull requests</h3>
+        <section data-background="img/backgrounds/lightgrey.svg" class="futurice-front1">
+          <h3 style="font-weight: bold;">Answer to issues and pull requests</h3>
           <img src="img/closed-issues.png" alt="" />
 
           <aside class="notes">
@@ -381,8 +380,8 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h3>Don't kill the project</h3>
+        <section data-background="img/backgrounds/lightgrey.svg" class="futurice-front1">
+          <h3 style="font-weight: bold;">Don't kill the project</h3>
           <img src="img/kill-project.png" alt="" />
 
           <aside class="notes">
@@ -392,8 +391,8 @@
           </aside>
         </section>
 
-        <section data-background="img/bg02.png" class="futurice-front1">
-          <h3>Find new maintainers</h3>
+        <section data-background="img/backgrounds/lightgrey.svg" class="futurice-front1">
+          <h3 style="font-weight: bold;">Find new maintainers</h3>
           <img src="img/find-maintainers.png" alt="" />
           <aside class="notes">
             <ul>
@@ -403,8 +402,8 @@
         </section>
 
 
-        <section data-background="img/bg08.png" class="futurice-front1">
-          <h2 style="color:white">Share your projects!</h2>
+        <section data-background="img/backgrounds/love-bg.svg">
+          <h2 style="font-weight:bold;color:#231F20"><span style="color:#F58227">Share</span> your projects!</h2>
         </section>
 
       </div>
